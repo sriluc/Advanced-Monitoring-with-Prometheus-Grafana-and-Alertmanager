@@ -1,0 +1,16 @@
+{
+  "dashboard": {
+    "panels": [
+      {
+        "type": "graph",
+        "title": "Memory Usage",
+        "targets": [
+          {
+            "expr": "container_memory_usage_bytes",
+            "legendFormat": "{{pod}}"
+          }
+        ]
+      }
+    ]
+  }
+}
